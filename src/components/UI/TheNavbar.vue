@@ -18,6 +18,8 @@
 </script>
 
 <style scoped lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 img {
     position: absolute;
     margin-left: 7.5%;
@@ -27,6 +29,7 @@ ul {
     display: flex;
     justify-content: right;
     margin-right: 7%;
+    list-style-type: none;
     li {
         display: inline-flex;
         a {
@@ -34,10 +37,18 @@ ul {
             text-decoration: none;
             margin-left: 45px;
             margin-top: 46px;
+            font-family: "Plus Jakarta Sans", sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            white-space: nowrap;
+
         }
 }  
 }
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .navbar {
         display: none;
     }
